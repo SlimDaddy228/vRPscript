@@ -12,7 +12,7 @@ LicencePlate.Number = false
 
 
 function tvRP.takePlate()
-	RequestAnimDict("mini")
+    RequestAnimDict("mini")
     RequestAnimDict("mini@repair")
     while (not HasAnimDictLoaded("mini@repair")) do
 		Citizen.Wait(10)
@@ -43,8 +43,8 @@ function tvRP.takePlate()
 
 
 function tvRP.returnPlate()
-	RequestAnimDict("mini")
-    RequestAnimDict("mini@repair")
+  RequestAnimDict("mini")
+  RequestAnimDict("mini@repair")
     while (not HasAnimDictLoaded("mini@repair")) do
 		Citizen.Wait(10) 
 	end
