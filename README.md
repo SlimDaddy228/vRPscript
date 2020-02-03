@@ -1,5 +1,11 @@
 # vRPscript
 script by Slim
+
+
+
+
+
+
 СКРУТИТЬ НОМЕРА - TAKE PLACE
 
 
